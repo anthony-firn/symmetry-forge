@@ -1,0 +1,91 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='4720' height='544'>
+<rect width='100%' height='100%' fill='#f5f7fa'/>
+<g font-family='Helvetica, Arial, sans-serif' font-size='12'>
+<line x1='2360' y1='76' x2='1060' y2='156' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='2360' y1='76' x2='2360' y2='156' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='2360' y1='76' x2='2880' y2='156' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='2360' y1='76' x2='3530' y2='156' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='2360' y1='76' x2='4310' y2='156' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='1060' y1='192' x2='410' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='1060' y1='192' x2='1060' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='1060' y1='192' x2='1710' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='410' y1='308' x2='150' y2='388' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='410' y1='308' x2='410' y2='388' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='410' y1='308' x2='670' y2='388' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='1060' y1='308' x2='930' y2='388' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='1060' y1='308' x2='1190' y2='388' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='1710' y1='308' x2='1450' y2='388' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='1710' y1='308' x2='1710' y2='388' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='1710' y1='308' x2='1970' y2='388' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='2360' y1='192' x2='2230' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='2360' y1='192' x2='2490' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='2880' y1='192' x2='2750' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='2880' y1='192' x2='3010' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='3530' y1='192' x2='3270' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='3530' y1='192' x2='3530' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='3530' y1='192' x2='3790' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='4310' y1='192' x2='4050' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='4310' y1='192' x2='4310' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<line x1='4310' y1='192' x2='4570' y2='272' stroke='#90a4ae' stroke-width='1.5'/>
+<rect x='2250' y='40' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='2360' y='58.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Symmetry Types (Macro)</text>
+<rect x='950' y='156' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='1060' y='174.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Finite discrete structures</text>
+<rect x='300' y='272' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='410' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Graphs</text>
+<rect x='40' y='388' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='150' y='406.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Regular graphs</text>
+<rect x='300' y='388' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='410' y='406.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Strongly regular graphs</text>
+<rect x='560' y='388' width='220' height='36' rx='6' ry='6' fill='#f9a825' stroke='#f57f17' stroke-width='1.5'/>
+<text x='670' y='406.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Colored graphs</text>
+<rect x='950' y='272' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='1060' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Designs / incidence</text>
+<rect x='820' y='388' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='930' y='406.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Steiner systems (t=2)</text>
+<rect x='1080' y='388' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='1190' y='406.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Block designs (t&gt;=3)</text>
+<rect x='1600' y='272' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='1710' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Codes and lattices</text>
+<rect x='1340' y='388' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='1450' y='406.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Binary linear codes</text>
+<rect x='1600' y='388' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='1710' y='406.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Construction A lattices</text>
+<rect x='1860' y='388' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='1970' y='406.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Minimal-vector graphs</text>
+<rect x='2250' y='156' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='2360' y='174.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Algebraic structures</text>
+<rect x='2120' y='272' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='2230' y='290.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Commutative magmas</text>
+<rect x='2380' y='272' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='2490' y='290.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Algebra from symmetry</text>
+<rect x='2770' y='156' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='2880' y='174.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Group actions</text>
+<rect x='2640' y='272' width='220' height='36' rx='6' ry='6' fill='#2e7d32' stroke='#1b5e20' stroke-width='1.5'/>
+<text x='2750' y='290.0' fill='#ffffff' text-anchor='middle' dominant-baseline='middle'>Permutation groups</text>
+<rect x='2900' y='272' width='220' height='36' rx='6' ry='6' fill='#f9a825' stroke='#f57f17' stroke-width='1.5'/>
+<text x='3010' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Local-to-global recon</text>
+<rect x='3420' y='156' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='3530' y='174.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Continuous symmetry</text>
+<rect x='3160' y='272' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='3270' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Lie groups</text>
+<rect x='3420' y='272' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='3530' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Lie algebras</text>
+<rect x='3680' y='272' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='3790' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Topological groups</text>
+<rect x='4200' y='156' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='4310' y='174.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Geometric symmetry</text>
+<rect x='3940' y='272' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='4050' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Polytopes</text>
+<rect x='4200' y='272' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='4310' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Tilings</text>
+<rect x='4460' y='272' width='220' height='36' rx='6' ry='6' fill='#90a4ae' stroke='#546e7a' stroke-width='1.5'/>
+<text x='4570' y='290.0' fill='#000000' text-anchor='middle' dominant-baseline='middle'>Metric spaces</text>
+<text x='40' y='464' font-size='14'>Legend</text>
+<rect x='40' y='484' width='16' height='16' rx='3' ry='3' fill='#2e7d32' stroke='#1b5e20'/>
+<text x='64' y='492' font-size='12' dominant-baseline='middle'>Found from first principles</text>
+<rect x='40' y='506' width='16' height='16' rx='3' ry='3' fill='#f9a825' stroke='#f57f17'/>
+<text x='64' y='514' font-size='12' dominant-baseline='middle'>Explored</text>
+<rect x='40' y='528' width='16' height='16' rx='3' ry='3' fill='#90a4ae' stroke='#546e7a'/>
+<text x='64' y='536' font-size='12' dominant-baseline='middle'>Unknown</text>
+</g></svg>

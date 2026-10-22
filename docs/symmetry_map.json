@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {"id": "root", "label": "Symmetry Types (Macro)", "parent": null},
+
+    {"id": "finite", "label": "Finite discrete structures", "parent": "root"},
+    {"id": "graphs", "label": "Graphs", "parent": "finite"},
+    {
+      "id": "regular_graphs",
+      "label": "Regular graphs",
+      "parent": "graphs",
+      "match": [
+        {"files": ["results/e3_outlier.jsonl"], "field": "meta.generator", "in": ["regular_graph", "random_regular_graph"]},
+        {"files": ["results/m7_monster_attempt.jsonl"], "field": "phase", "equals": "fingerprint"}
+      ],
+      "status_if_missing": "explored"
+    },
+    {
+      "id": "srg",
+      "label": "Strongly regular graphs",
+      "parent": "graphs",
+      "match": [
+        {"files": ["results/e4_frontier.jsonl"], "field": "spec.kind", "equals": "srg"}
+      ],
+      "status_if_missing": "explored"
+    },
+    {"id": "colored_graphs", "label": "Colored graphs", "parent": "graphs", "status": "explored"},
+
+    {"id": "designs", "label": "Designs / incidence", "parent": "finite"},
+    {
+      "id": "steiner_systems",
+      "label": "Steiner systems (t=2)",
+      "parent": "designs",
+      "match": [
+        {"files": ["results/e1_fano.jsonl", "results/e2_design.jsonl"], "field": "object", "equals": "steiner_system"},
+        {"files": ["results/m7_monster_attempt.jsonl"], "field": "phase", "equals": "design"}
+      ],
+      "status_if_missing": "explored"
+    },
+    {
+      "id": "block_designs",
+      "label": "Block designs (t>=3)",
+      "parent": "designs",
+      "match": [
+        {"files": ["results/e2_design.jsonl"], "field": "params.t", "equals": 3}
+      ],
+      "status_if_missing": "explored"
+    },
+
+    {"id": "codes_lattices", "label": "Codes and lattices", "parent": "finite"},
+    {
+      "id": "binary_codes",
+      "label": "Binary linear codes",
+      "parent": "codes_lattices",
+      "match": [
+        {"files": ["results/m6_code_lattice.jsonl"], "field": "experiment", "equals": "M6"}
+      ],
+      "status_if_missing": "explored"
+    },
+    {
+      "id": "construction_a",
+      "label": "Construction A lattices",
+      "parent": "codes_lattices",
+      "match": [
+        {"files": ["results/m6_code_lattice.jsonl"], "field": "experiment", "equals": "M6"}
+      ],
+      "status_if_missing": "explored"
+    },
+    {
+      "id": "min_vec_graph",
+      "label": "Minimal-vector graphs",
+      "parent": "codes_lattices",
+      "match": [
+        {"files": ["results/m6_code_lattice.jsonl"], "field": "experiment", "equals": "M6"}
+      ],
+      "status_if_missing": "explored"
+    },
+
+    {"id": "algebraic", "label": "Algebraic structures", "parent": "root"},
+    {
+      "id": "commutative_magmas",
+      "label": "Commutative magmas",
+      "parent": "algebraic",
+      "match": [
+        {"files": ["results/e4_frontier.jsonl"], "field": "spec.kind", "equals": "algebra"}
+      ],
+      "status_if_missing": "explored"
+    },
+    {
+      "id": "algebra_synthesis",
+      "label": "Algebra from symmetry",
+      "parent": "algebraic",
+      "match": [
+        {"files": ["results/m7_monster_attempt.jsonl"], "field": "phase", "equals": "algebra"}
+      ],
+      "status_if_missing": "explored"
+    },
+
+    {"id": "group_actions", "label": "Group actions", "parent": "root"},
+    {
+      "id": "perm_groups",
+      "label": "Permutation groups",
+      "parent": "group_actions",
+      "match": [
+        {"files": ["results/m7_monster_attempt.jsonl"], "field": "phase", "equals": "fingerprint"}
+      ],
+      "status_if_missing": "explored"
+    },
+    {
+      "id": "local_global",
+      "label": "Local-to-global recon",
+      "parent": "group_actions",
+      "match": [
+        {"files": ["results/m7_monster_attempt.jsonl"], "field": "phase", "equals": "glue"}
+      ],
+      "status_if_missing": "explored"
+    },
+
+    {"id": "continuous", "label": "Continuous symmetry", "parent": "root"},
+    {"id": "lie_groups", "label": "Lie groups", "parent": "continuous"},
+    {"id": "lie_algebras", "label": "Lie algebras", "parent": "continuous"},
+    {"id": "topological", "label": "Topological groups", "parent": "continuous"},
+
+    {"id": "geometric", "label": "Geometric symmetry", "parent": "root"},
+    {"id": "polytopes", "label": "Polytopes", "parent": "geometric"},
+    {"id": "tilings", "label": "Tilings", "parent": "geometric"},
+    {"id": "metric", "label": "Metric spaces", "parent": "geometric"}
+  ]
+}
